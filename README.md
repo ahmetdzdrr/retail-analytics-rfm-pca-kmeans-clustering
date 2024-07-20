@@ -61,20 +61,26 @@ This script will process the data, perform clustering, and generate visualizatio
     - `clean_process(df):` Cleans and processes the raw dataset.
 
 > Feature Engineering:
-    - `transaction_and_purchased(df, new_df):` Computes transaction and purchase-related features.
-    - `total_and_average_spend(df, new_df):` Calculates total and average spending per customer.
-    - `product_diversity(df, new_df):` Measures product diversity per customer.
-    - `behavior_features(df, new_df):` Extracts behavioral features such as shopping day and hour.
-    - `geographic_features(df, new_df):` Adds geographic features like country of origin.
-    - `seasonality_trends(df, new_df):` Analyzes seasonal trends in spending.
+> - `transaction_and_purchased(df, new_df):` Computes transaction and purchase-related features.
+> - `total_and_average_spend(df, new_df):` Calculates total and average spending per customer.
+> - `product_diversity(df, new_df):` Measures product diversity per customer.
+> - `behavior_features(df, new_df):` Extracts behavioral features such as shopping day and hour.
+> - `geographic_features(df, new_df):` Adds geographic features like country of origin.
+> - `seasonality_trends(df, new_df):` Analyzes seasonal trends in spending.
+> - `transaction_and_purchased(df, new_df):` Computes transaction and purchase-related features.
+> - `total_and_average_spend(df, new_df):` Calculates total and average spending per customer.
+> - `product_diversity(df, new_df):` Measures product diversity per customer.
+> - `behavior_features(df, new_df):` Extracts behavioral features such as shopping day and hour.
+> - `geographic_features(df, new_df):` Adds geographic features like country of origin.
+> - `seasonality_trends(df, new_df):` Analyzes seasonal trends in spending.
 
 > Clustering and Evaluation:
-    - `kmeans_clustering(customer_data_pca):` Performs KMeans clustering.
-    - `silhouette_analysis(customer_data_pca, start_k, stop_k):` Analyzes silhouette scores for different values of k.
-    - `clustering_feature(dataframe, customer_data_pca):` Adds clustering features to the dataset.
-    - `eval_metric(customer_data_pca):` Evaluates clustering performance with various metrics.
-    - `radar_map(dataframe):` Generates radar charts for cluster centroids.
-    - `segmentation_features(dataframe):` Plots histograms of features segmented by clusters.
+> - `kmeans_clustering(customer_data_pca):` Performs KMeans clustering.
+> - `silhouette_analysis(customer_data_pca, start_k, stop_k):` Analyzes silhouette scores for different values of k.
+> - `clustering_feature(dataframe, customer_data_pca):` Adds clustering features to the dataset.
+> - `eval_metric(customer_data_pca):` Evaluates clustering performance with various metrics.
+> - `radar_map(dataframe):` Generates radar charts for cluster centroids.
+> - `segmentation_features(dataframe):` Plots histograms of features segmented by clusters.
 
 ## Visualizations
 
