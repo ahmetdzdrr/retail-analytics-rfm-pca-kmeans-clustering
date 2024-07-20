@@ -56,11 +56,11 @@ This script will process the data, perform clustering, and generate visualizatio
 
 2. **Functions and Features:**
 
-> Data Preprocessing:
-    - `date_process(df):` Processes and cleans date-related columns.
-    - `clean_process(df):` Cleans and processes the raw dataset.
+> **Data Preprocessing**:
+> - `date_process(df):` Processes and cleans date-related columns.
+> - `clean_process(df):` Cleans and processes the raw dataset.
 
-> Feature Engineering:
+> **Feature Engineering**:
 > - `transaction_and_purchased(df, new_df):` Computes transaction and purchase-related features.
 > - `total_and_average_spend(df, new_df):` Calculates total and average spending per customer.
 > - `product_diversity(df, new_df):` Measures product diversity per customer.
@@ -74,7 +74,7 @@ This script will process the data, perform clustering, and generate visualizatio
 > - `geographic_features(df, new_df):` Adds geographic features like country of origin.
 > - `seasonality_trends(df, new_df):` Analyzes seasonal trends in spending.
 
-> Clustering and Evaluation:
+> **Clustering and Evaluation**:
 > - `kmeans_clustering(customer_data_pca):` Performs KMeans clustering.
 > - `silhouette_analysis(customer_data_pca, start_k, stop_k):` Analyzes silhouette scores for different values of k.
 > - `clustering_feature(dataframe, customer_data_pca):` Adds clustering features to the dataset.
