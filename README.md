@@ -1,5 +1,7 @@
 # Customer Segmentation and Sales Analysis
 
+![image](https://github.com/user-attachments/assets/67990726-d3e1-4c33-ba4d-021ae94eb47c)
+
 This repository contains a comprehensive analysis and segmentation of customer data from an online retail dataset. It involves various stages of data preprocessing, feature engineering, clustering, and visualization to understand customer behavior and sales trends.
 
 ## Project Overview
