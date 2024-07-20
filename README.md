@@ -82,7 +82,8 @@ This script will process the data, perform clustering, and generate visualizatio
 > - `radar_map(dataframe):` Generates radar charts for cluster centroids.
 > - `segmentation_features(dataframe):` Plots histograms of features segmented by clusters.
 
-## Visualizations
+
+## Visualizations
 
 The project includes several visualizations to understand customer segmentation and sales patterns, including:
 
