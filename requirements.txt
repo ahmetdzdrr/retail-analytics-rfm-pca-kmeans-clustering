@@ -1,0 +1,15 @@
+pandas
+numpy
+scikit-learn
+optuna
+catboost
+squarify
+nbformat
+ipykernel
+matplotlib
+seaborn
+yellowbrick
+Jinja2
+plotly
+tabulate
+scipy
